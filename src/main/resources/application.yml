@@ -85,9 +85,9 @@ spring:
 
   # DATASOURCE (DataSourceAutoConfiguration & DataSourceProperties)  
   datasource:
-    url: jdbc:mysql://localhost:3306/test
+    url: jdbc:mysql://60.169.1.82:3306/zjb?useUnicode=true&characterEncoding=utf-8
     username: root
-    password: 123456
+    password: HFzjb123!@#
     driver-class: com.mysql.jdbc.Driver
     testWhileIdle: true 
     validationQuery: SELECT 1
